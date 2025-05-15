@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projetReact/static/css/main.efc4615b.css",
-    "main.js": "/projetReact/static/js/main.68d2c91d.js",
+    "main.css": "/projetReact/static/css/main.ba73c924.css",
+    "main.js": "/projetReact/static/js/main.cc6e5197.js",
     "static/media/Compétition Phase des Ligues.JPG": "/projetReact/static/media/Compétition Phase des Ligues.b22b7d78cb6dc44a32fe.JPG",
     "static/media/Compétition.JPG": "/projetReact/static/media/Compétition.33e0d4cdd893f773cfcd.JPG",
     "static/media/Hackathon.JPG": "/projetReact/static/media/Hackathon.97466d433af2740a25a8.JPG",
@@ -31,11 +31,11 @@
     "static/media/projet5.png": "/projetReact/static/media/projet5.bc009a8b8bc54c589101.png",
     "static/media/projet10.png": "/projetReact/static/media/projet10.8ca8de7f0ff0e8344b03.png",
     "index.html": "/projetReact/index.html",
-    "main.efc4615b.css.map": "/projetReact/static/css/main.efc4615b.css.map",
-    "main.68d2c91d.js.map": "/projetReact/static/js/main.68d2c91d.js.map"
+    "main.ba73c924.css.map": "/projetReact/static/css/main.ba73c924.css.map",
+    "main.cc6e5197.js.map": "/projetReact/static/js/main.cc6e5197.js.map"
   },
   "entrypoints": [
-    "static/css/main.efc4615b.css",
-    "static/js/main.68d2c91d.js"
+    "static/css/main.ba73c924.css",
+    "static/js/main.cc6e5197.js"
   ]
 }
