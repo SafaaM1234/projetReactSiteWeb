@@ -1,41 +1,16 @@
 {
   "files": {
-    "main.css": "/projetReact/static/css/main.053c1a52.css",
-    "main.js": "/projetReact/static/js/main.cc6e5197.js",
-    "static/media/Compétition Phase des Ligues.JPG": "/projetReact/static/media/Compétition Phase des Ligues.b22b7d78cb6dc44a32fe.JPG",
-    "static/media/Compétition.JPG": "/projetReact/static/media/Compétition.33e0d4cdd893f773cfcd.JPG",
-    "static/media/Hackathon.JPG": "/projetReact/static/media/Hackathon.97466d433af2740a25a8.JPG",
-    "static/media/8 Mars.JPG": "/projetReact/static/media/8 Mars.48a58e4d60fb5089f902.JPG",
-    "static/media/enactus2.png": "/projetReact/static/media/enactus2.c587dc336120e56e8634.png",
-    "static/media/enactus1.png": "/projetReact/static/media/enactus1.28d678854e4fb3f779fe.png",
-    "static/media/projet11.png": "/projetReact/static/media/projet11.c0312e4c9832993f62ad.png",
-    "static/media/projet6.png": "/projetReact/static/media/projet6.628d8654cd68eec7a47a.png",
-    "static/media/projet1.png": "/projetReact/static/media/projet1.9911d41ea75f693d4117.png",
-    "static/media/projet4.png": "/projetReact/static/media/projet4.ef0cd422294c0cb07f3e.png",
-    "static/media/enactus3.png": "/projetReact/static/media/enactus3.43088501b3c9e8d6a986.png",
-    "static/media/projet9.png": "/projetReact/static/media/projet9.c7e55df64a7cadd72613.png",
-    "static/media/projet8.png": "/projetReact/static/media/projet8.a85f85e5146d754456cd.png",
-    "static/media/projet3.png": "/projetReact/static/media/projet3.b13bea026aa2fc8e59a5.png",
-    "static/media/projet2.png": "/projetReact/static/media/projet2.1be38228e4ad68fd5f3d.png",
-    "static/media/jour d integration.jpg": "/projetReact/static/media/jour d integration.2af25d446ce5f9a97188.jpg",
-    "static/media/imane-pic.png": "/projetReact/static/media/imane-pic.6ca88e3a0fecbf7da645.png",
-    "static/media/ammar-pic.png": "/projetReact/static/media/ammar-pic.e1d1909666c8ac84be86.png",
-    "static/media/hind-pic.png": "/projetReact/static/media/hind-pic.8e0e67823b0d9006b5f2.png",
-    "static/media/abdelwadoud-pic.png": "/projetReact/static/media/abdelwadoud-pic.51a0a0b771e09420fda8.png",
-    "static/media/basma-pic.png": "/projetReact/static/media/basma-pic.219c921e0688a6d89bf1.png",
-    "static/media/wiam-pic.png": "/projetReact/static/media/wiam-pic.3be5675f20e52cd0b0f4.png",
-    "static/media/younes-pic.png": "/projetReact/static/media/younes-pic.53226d3a6babc6c55cb3.png",
-    "static/media/maryam-pic.png": "/projetReact/static/media/maryam-pic.9a5ad036afcbc0a1834f.png",
-    "static/media/Logo0.png": "/projetReact/static/media/Logo0.b1e8e5cdbb619eac0482.png",
-    "static/media/projet7.png": "/projetReact/static/media/projet7.6c6205ee0077589611da.png",
-    "static/media/projet5.png": "/projetReact/static/media/projet5.bc009a8b8bc54c589101.png",
-    "static/media/projet10.png": "/projetReact/static/media/projet10.8ca8de7f0ff0e8344b03.png",
-    "index.html": "/projetReact/index.html",
-    "main.053c1a52.css.map": "/projetReact/static/css/main.053c1a52.css.map",
-    "main.cc6e5197.js.map": "/projetReact/static/js/main.cc6e5197.js.map"
+    "main.css": "/projetReactSiteWeb/static/css/main.f855e6bc.css",
+    "main.js": "/projetReactSiteWeb/static/js/main.115acba5.js",
+    "static/js/453.e1b521bb.chunk.js": "/projetReactSiteWeb/static/js/453.e1b521bb.chunk.js",
+    "static/media/logo.svg": "/projetReactSiteWeb/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/projetReactSiteWeb/index.html",
+    "main.f855e6bc.css.map": "/projetReactSiteWeb/static/css/main.f855e6bc.css.map",
+    "main.115acba5.js.map": "/projetReactSiteWeb/static/js/main.115acba5.js.map",
+    "453.e1b521bb.chunk.js.map": "/projetReactSiteWeb/static/js/453.e1b521bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.053c1a52.css",
-    "static/js/main.cc6e5197.js"
+    "static/css/main.f855e6bc.css",
+    "static/js/main.115acba5.js"
   ]
 }
