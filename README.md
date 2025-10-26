@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# 🌍 Site Web Enactus FSBM
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenue sur le site d'**Enactus FSBM**, développé avec **React** et déployé via **GitHub Pages**. Ce projet met en valeur les actions, les projets et les membres du club Enactus de la Faculté des Sciences Ben M’Sik.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🎯 Objectif du projet
 
-### `npm start`
+Ce site vise à :
+- Présenter les projets portés par les étudiants
+- Valoriser l’impact social et environnemental du club
+- Faciliter l’adhésion et le contact
+- Offrir une vitrine moderne et interactive
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧪 Démo vidéo
 
-### `npm test`
+🎥 [Voir la démonstration du site](https://drive.google.com/file/d/1OE6DQgGPvY2NsmJxhGTDKiaIOa3AxF4R/view?usp=sharing)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📁 Télécharger le projet
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📦 [Télécharger le dossier ZIP du projet](https://drive.google.com/file/d/1yReRwauazihcCsJasoXUIU-BpQyy2RFM/view?usp=sharing)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🖼️ Aperçu des pages
 
-### `npm run eject`
+| Page              | Aperçu                                                                 |
+|-------------------|------------------------------------------------------------------------|
+| Accueil           | ![Accueil](https://drive.google.com/uc?export=view&id=14pQaSLjIFpOjJoEXNrR_F8U7gTf2Q3pP) |
+| À propos de nous  | ![À propos](https://drive.google.com/uc?export=view&id=15WJA9LsKzI4U80Vlzjkxjo_qmHC-_ZJH) |
+| Contact           | ![Contact](https://drive.google.com/uc?export=view&id=1n9SvHqSDAg0j_RbwmGnb0qCSq_uWZZgx) |
+| Équipe            | ![Équipe](https://drive.google.com/uc?export=view&id=1reslXv75QW46-uPt4r_0DrTiHJDLchup) |
+| Événements        | ![Événements](https://drive.google.com/uc?export=view&id=1uSNXU9A9n4uR13s81x25nXIOssGdd5Fk) |
+| Nos projets       | ![Projets](https://drive.google.com/uc?export=view&id=1s_3tXRLfnXuB9aIpDcFSnejJhRGZogqZ) |
+| Rejoignez-nous    | ![Rejoindre](https://drive.google.com/uc?export=view&id=1RRw93sR_Yn1Kw2eEtPwGGNZizM40G3XV) |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Technologies utilisées
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **React** `^19.1.0`
+- **React Router DOM** `^7.6.0`
+- **Bootstrap** `^5.3.6`
+- **AOS** (animations) `^2.3.4`
+- **React Icons**, **CountUp**, etc.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🧭 Structure du site
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `/` : Accueil
+- `/about` : À propos de nous
+- `/team` : Notre équipe
+- `/projects` : Nos projets
+- `/events` : Événements
+- `/contact` : Contactez-nous
+- `/join` : Formulaire d’adhésion
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🚀 Déploiement
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Le site est déployé sur GitHub Pages :
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm run build
+npm run deploy
