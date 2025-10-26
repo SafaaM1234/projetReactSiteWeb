@@ -1,0 +1,19 @@
+
+.nav-link {
+  font-size: 1.2rem; /* Augmente la taille de la police */
+  font-family: 'Arial', sans-serif; /* Change la police */
+}
+
+.dropdown-item {
+  font-size: 18px; /* Ajuste la taille des éléments du menu déroulant */
+  font-family: 'Arial', sans-serif; /* Change la police */
+  
+}
+
+
+#navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  
+}

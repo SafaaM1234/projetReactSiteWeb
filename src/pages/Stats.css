@@ -1,0 +1,141 @@
+
+.stats-section {
+  padding: 50px;
+  background-color: #f5f5f5;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  text-align: center;
+  border-radius: 5%;
+}
+
+.stat-item {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.stat-item:hover {
+  transform: translateY(-5px);
+}
+
+.stat-icon {
+  font-size: 2.5rem;
+  color: #f57c00;
+  margin-bottom: 10px;
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.stat-title {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Media queries pour adapter du 800px jusqu'à des tailles ultra petites */
+
+/* Pour les écrans jusqu'à 800px */
+@media screen and (max-width: 800px) {
+  .stats-section {
+    padding: 40px;
+  }
+  
+  .stat-value {
+    font-size: 1.8rem;
+  }
+  
+  .stat-title {
+    font-size: 1.1rem;
+  }
+}
+
+/* Pour les écrans jusqu'à 600px */
+@media screen and (max-width: 600px) {
+  .stats-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .stats-section {
+    padding: 30px;
+  }
+  
+  .stat-icon {
+    font-size: 2rem;
+  }
+  
+  .stat-value {
+    font-size: 1.6rem;
+  }
+  
+  .stat-title {
+    font-size: 1rem;
+  }
+}
+
+/* Pour les écrans jusqu'à 400px */
+@media screen and (max-width: 400px) {
+  .stats-grid {
+    grid-template-columns: 1fr; /* Une seule colonne pour maximiser l'espace */
+    gap: 15px;
+  }
+  
+  .stats-section {
+    padding: 20px;
+  }
+  
+  .stat-icon {
+    font-size: 1.8rem;
+  }
+  
+  .stat-value {
+    font-size: 1.4rem;
+  }
+  
+  .stat-title {
+    font-size: 0.9rem;
+  }
+}
+
+/* Pour les écrans jusqu'à 200px */
+@media screen and (max-width: 200px) {
+  .stats-section {
+    padding: 10px;
+  }
+  
+  .stat-icon {
+    font-size: 1.5rem;
+  }
+  
+  .stat-value {
+    font-size: 1.2rem;
+  }
+  
+  .stat-title {
+    font-size: 0.8rem;
+  }
+}
+
+/* Pour les écrans extrêmement étroits (jusqu'à 100px)
+   On peut choisir de masquer certains éléments si l'espace est vraiment insuffisant */
+@media screen and (max-width: 100px) {
+  .stats-section {
+    padding: 5px;
+  }
+  
+  /* Par exemple, masquer les icônes et le texte pour un affichage ultra minimaliste */
+  .stat-icon,
+  .stat-value,
+  .stat-title {
+    display: none;
+  }
+}

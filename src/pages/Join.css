@@ -1,0 +1,75 @@
+/* join.css */
+
+.join-section {
+    padding: 100px 20px;
+    background-color: #111;
+    text-align: center;
+  }
+  
+  .join-section h2 {
+    color: #FFD700;
+    margin-bottom: 40px;
+  }
+  
+  .join-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .join-form input,
+  .join-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .join-form button {
+    padding: 15px 30px;
+    background-color: #FFD700;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .join-form button:hover {
+    background-color: #e6c200;
+  }
+  
+  @media (max-width: 600px) {
+    .join-form {
+      width: 90%;
+    }
+  
+    .join-form input,
+    .join-form textarea {
+      font-size: 16px;
+    }
+  }
+
+
+  label{
+    color: blanchedalmond;
+  }
+
+  .form-buttons{
+    display: inline-block;
+    justify-content: space-between;
+   
+    width: 100%;
+    
+  }
+    .form-buttons button{
+        margin: 1%;
+        transition: background-color 0.3s;
+    }

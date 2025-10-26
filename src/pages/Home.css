@@ -1,0 +1,94 @@
+/* Styles généraux */
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../images/Acceuil/enactus3.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh; /* Adaptation de la hauteur */
+    box-sizing: border-box;
+    padding: 5%;
+}
+
+/* Titre principal */
+.bienvenue {
+    font-size: clamp(30px, 6vw, 80px); /* Ajustement dynamique de la taille */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    color: #847f7b;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+/* Description */
+.description {
+    font-family: 'Arial', sans-serif; 
+    font-weight: 900;
+    font-size: clamp(14px, 2.5vw, 32px);
+    padding: 20px;
+    max-width: 80%;
+    color: #444;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+}
+
+/* Couleur de fond globale */
+body {
+    background-color: #f6eeea;
+}
+
+/* Responsiveness pour écrans < 800px */
+@media screen and (max-width: 800px) {
+    .home {
+        padding: 3%;
+    }
+    .bienvenue {
+        font-size: clamp(25px, 5vw, 60px);
+    }
+    .description {
+        font-size: clamp(12px, 2vw, 28px);
+        max-width: 90%;
+    }
+}
+
+/* Pour écrans < 500px */
+@media screen and (max-width: 500px) {
+    .home {
+        padding: 2%;
+    }
+    .bienvenue {
+        font-size: clamp(20px, 4vw, 50px);
+    }
+    .description {
+        font-size: clamp(10px, 1.8vw, 24px);
+        padding: 15px;
+    }
+}
+
+/* Pour écrans < 300px */
+@media screen and (max-width: 300px) {
+    .home {
+        padding: 2%;
+    }
+    .bienvenue {
+        font-size: clamp(18px, 3vw, 40px);
+    }
+    .description {
+        font-size: clamp(9px, 1.5vw, 18px);
+        padding: 10px;
+    }
+}
+
+/* Pour écrans ultra petits (< 100px) */
+@media screen and (max-width: 100px) {
+    .home {
+        padding: 1%;
+    }
+    .bienvenue, .description {
+        font-size: 10px; /* Taille minimale lisible */
+    }
+}

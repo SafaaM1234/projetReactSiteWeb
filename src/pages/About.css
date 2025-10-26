@@ -1,0 +1,140 @@
+.about {
+  padding-top: 10%;
+}
+
+.us {
+  background-color: #eef5f9;
+  padding: 2rem 30px;
+  text-align: center;
+  margin: 40px auto;
+  width: 80%;
+  border: 5px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(45deg, rgb(190,212,228), #fff);
+  border-radius: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Note : la propriété "rotate" n'est pas standard dans certains cas.
+   Il est préférable d'utiliser "transform: rotate(...)" si besoin. */
+.photo {
+     transition: 1s cubic-bezier(0.77,0.01,0.49,1.51) ; /* donne l'effet du mouvement progressive avec un boncement a la fin                                                                 au lieu d'un mouvement instantané */
+	transition-property: scale; /* appliquer la fonction scale au transition (transformation)  */
+  position: relative;
+  left: 4.5%;
+  width: 22%;
+  border: 10px double rgb(249, 215, 121);
+  border-radius: 20%;
+  float: right;
+  transform: rotate(-16deg);
+  margin-top: -6%;
+}
+ .photo:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+  scale: 1.2; 
+	
+ }
+
+p {
+  font-size: 150%;
+  font-weight: bolder;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+  font-weight: bolder;
+  margin-top: 6%;
+}
+
+#mission {
+  background-color: #eef5f9;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  border-radius: 0% 35% 0%;
+  padding: 1% 5% 3% 5%;
+}
+
+.enactusmission {
+     transition: 1s cubic-bezier(0.77,0.01,0.49,1.51) ; /* donne l'effet du mouvement progressive avec un boncement a la fin                                                                 au lieu d'un mouvement instantané */
+	transition-property: scale; /* appliquer la fonction scale au transition (transformation)  */
+  position: relative;
+  right: 7%;
+  left: -2%;
+  width: 26%;
+  float: left;
+  transform: rotate(16deg);
+  border: 10px double rgb(249, 215, 121);
+  border-radius: 20%;
+  margin-top: -2.5%;
+}
+ .enactusmission:hover {
+  transform: scale(1.2);
+    transition: transform 0.5s ease;
+    scale: 1.2; 
+ }
+
+
+
+/* ======================
+   Media queries 
+   ====================== */
+
+/* Pour les écrans de 800px ou moins */
+@media screen and (max-width: 800px) {
+  .about {
+    padding-top: 5%;
+  }
+
+  .us {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    /* On laisse la hauteur en auto pour laisser le contenu s'adapter */
+    height: auto;
+    border-radius: 15%;
+  }
+
+  /* Réajustement des images pour centrer et redimensionner */
+  .photo,
+  .enactusmission {
+    width: 40%;
+    float: none;
+    display: block;
+    margin: 20px auto;
+    position: static;
+    transform: none;
+  }
+
+  h1 {
+    font-size: 2em;
+    margin-top: 10%;
+  }
+
+  p {
+    font-size: 1em;
+  }
+}
+
+/* Pour les écrans encore plus petits (par exemple ≤500px) */
+@media screen and (max-width: 500px) {
+  .us {
+    padding: 10px;
+    width: 95%;
+    margin: 10px auto;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+  .photo,
+  .enactusmission {
+    width: 60%;
+  }
+}

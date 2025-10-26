@@ -1,0 +1,165 @@
+/* ==============================
+   Style de base (pour écrans larges : > 800px)
+   ============================== */
+.event-title {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #29260d;
+  text-align: center;
+  margin-top: 4.5rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.event {
+  display: inline-block;
+  gap: 20px;
+  justify-items: center;
+}
+
+.event-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  justify-items: center;
+  justify-content: center;
+  margin-left: 5%;
+  
+}
+
+.event-card {
+  height: 100%;
+  gap: 20px;
+  
+  border-radius: 5%;
+   background: linear-gradient(135deg, #e4e4e4, #bebebe);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  justify-items: center;
+  list-style: none;
+}
+
+.event-image {
+  width: 100%;
+  height: 40%;
+  border-radius: 10px 10px 0 0;
+}
+
+/* ==============================
+   Pour écrans jusqu'à 800px
+   ============================== */
+@media screen and (max-width: 800px) {
+  .event-title {
+    font-size: 2.5rem;
+    margin-top: 3.5rem;
+  }
+
+  .event-list {
+    /* On réduit légèrement l'espace et on adapte la grille */
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    gap: 20px;
+    margin-left: 2%;
+    border-width: 7px;
+  }
+
+  .event-card {
+    border-width: 7px;
+    gap: 15px;
+  }
+
+  .event-image {
+    border-radius: 8px 8px 0 0;
+  }
+}
+
+/* ==============================
+   Pour écrans jusqu'à 600px
+   ============================== */
+@media screen and (max-width: 600px) {
+  .event-title {
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+
+  .event-list {
+    grid-template-columns: 1fr; /* une seule colonne pour maximiser l'espace */
+    gap: 15px;
+    margin-left: 0;
+    width: 95%;
+  }
+
+  .event-card {
+    margin: 0 auto;
+  }
+
+  .event-image {
+    /* On laisse la largeur à 100%, mais on peut ajuster la hauteur si nécessaire */
+    height: auto;
+  }
+
+  /* On ajuste aussi la taille du texte contenu dans l'événement */
+  .event-date,
+  .event-description {
+    font-size: 0.9rem;
+  }
+}
+
+/* ==============================
+   Pour écrans jusqu'à 400px
+   ============================== */
+@media screen and (max-width: 400px) {
+  .event-title {
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+  }
+
+  .event-date,
+  .event-description {
+    font-size: 0.8rem;
+  }
+
+  .event-list {
+    gap: 10px;
+  }
+}
+
+/* ==============================
+   Pour écrans ultra petits (jusqu'à 200px)
+   ============================== */
+@media screen and (max-width: 200px) {
+  .event-title {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+  }
+
+  .event-date,
+  .event-description {
+    font-size: 0.7rem;
+  }
+
+  .event-card {
+    border-width: 2px;
+  }
+}
+
+/* ==============================
+   Pour écrans extrêmement étroits (jusqu'à 100px)
+   ============================== */
+/*
+  À ce niveau, pour des écrans de 100px de large, il est souvent préférable de masquer
+  certains contenus ou de repenser carrément l'affichage. Voici une suggestion minimale :
+*/
+@media screen and (max-width: 100px) {
+  .event-title {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  /* On masque les images et le texte afin de se concentrer sur le titre uniquement */
+  .event-image,
+  .event-date,
+  .event-description {
+    display: none;
+  }
+  .event-card {
+    border-width: 1px;
+  }
+}
